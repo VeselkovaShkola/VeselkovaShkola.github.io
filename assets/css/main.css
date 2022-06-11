@@ -2675,7 +2675,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/veselka-cr.jpg");
+		background-image: url("../../images/veselka.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2684,13 +2684,15 @@ input, select, textarea {
 	}
 
 		#banner header {
-			position: absolute;
-			bottom: 0;
-			left: 0;
+			position: relative;
+			text-align: center;
+			/* bottom: 0;
+			left: 0; */
 			width: 100%;
-			background: #212121;
-			background: rgba(27, 27, 27, 0.75);
-			color: #fff;
+			font-size: 3em;
+			/* background: #212121;
+			background: rgba(27, 27, 27, 0.75); */
+			color: rgb(255, 255, 255);
 			padding: 1.5em 0;
 		}
 
@@ -2862,6 +2864,12 @@ input, select, textarea {
 
 			#header {
 				padding: 2em 0 0 0;
+				/* background-image: url("../../images/veselka-2.jpg");
+				background-position: center center;
+				background-size: cover;
+				height: 28em;
+				text-align: center;
+				position: relative; */
 			}
 
 				#header h1 {
