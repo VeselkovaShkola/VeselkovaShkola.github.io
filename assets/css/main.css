@@ -2633,6 +2633,23 @@ input, select, textarea {
 					display: none;
 				}
 
+				#nav > ul > li.eventdot:before {
+					-moz-transform: rotateZ(45deg);
+					-webkit-transform: rotateZ(45deg);
+					-ms-transform: rotateZ(45deg);
+					transform: rotateZ(45deg);
+					width: 0.75em;
+					height: 0.75em;
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: -0.5em;
+					left: 470%;
+					margin-left: -0.375em;
+					background-color: #37c0fb;
+					background-image: url("images/bg01.png");
+				}
+
 /* Dropotron */
 
 	.dropotron {
@@ -2686,6 +2703,7 @@ input, select, textarea {
 		#banner header {
 			position: relative;
 			text-align: center;
+			text-shadow: 2px 2px 5px #0f0f0f;
 			/* bottom: 0;
 			left: 0; */
 			width: 100%;
