@@ -2721,6 +2721,16 @@ input, select, textarea {
 				margin-left: 1em;
 			}
 
+/* MiniBanner */
+
+#mini-banner {
+	background-image: url("../../images/veselka.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 8em;
+	text-align: center;
+	position: relative;
+}
 /* Wrapper */
 
 	.wrapper {
