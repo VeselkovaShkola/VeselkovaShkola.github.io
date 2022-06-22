@@ -2702,7 +2702,7 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 1.5;
 			color: rgb(255, 255, 255);
-			padding: 1.5em 0;
+			padding: 1em 0;
 		}
 
 			#banner header h2 {
@@ -3306,6 +3306,10 @@ input, select, textarea {
 				height: 18em;
 			}
 
+				#banner header {
+					padding: 1.2em 0;
+				}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -3359,11 +3363,13 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+				height: 14em;
 			}
 
 				#banner header {
-					padding: 20px;
+					padding: 10px;
+					font-size: 2.4em;
+					line-height: 1.2;
 				}
 
 		/* Wrapper */
