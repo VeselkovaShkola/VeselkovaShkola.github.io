@@ -2063,6 +2063,17 @@ input, select, textarea {
 		color: #999;
 	}
 
+/* Google Form */
+
+	.gform {
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+
 /* Image */
 
 	.image {
