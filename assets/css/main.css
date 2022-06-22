@@ -2687,12 +2687,9 @@ input, select, textarea {
 			position: relative;
 			text-align: center;
 			text-shadow: 2px 2px 5px #0f0f0f;
-			/* bottom: 0;
-			left: 0; */
 			width: 100%;
 			font-size: 3em;
-			/* background: #212121;
-			background: rgba(27, 27, 27, 0.75); */
+			line-height: 1.5;
 			color: rgb(255, 255, 255);
 			padding: 1.5em 0;
 		}
