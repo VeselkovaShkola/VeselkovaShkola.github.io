@@ -2925,6 +2925,53 @@ input, select, textarea {
 
 	}
 
+	/*Gallery*/
+
+	.imgGallery li {
+		display: inline;
+	}
+
+	.imgGallery ul li img
+	{
+		width: 30%;
+		height: auto;
+		overflow: hidden;
+		box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+		border: 6px solid #BFE2FF;
+
+	}
+
+	.imgGallery ul li img:hover
+	{
+		opacity: 50%;
+		background-color: rgba(0,0,0,0.90);
+		transition: filter 0.5s linear;
+		filter: brightness(1) grayscale(1);
+	}
+
+
+
+	.imgGallery ul li .tooltiptext {
+		visibility: hidden;
+		position: absolute;
+		width: 15%;
+		color: white;
+		background: #3dbef3;
+		font-weight: bolder;
+		text-shadow: 2px;
+		margin-top: 8%;
+		margin-left: -23%;
+		text-align: center;
+		border-left: 6px solid #BFE2FF;
+
+
+		/* Position the tooltip */
+
+
+}
+.imgGallery ul li:hover .tooltiptext {
+		visibility: visible;
+
 /* Narrow */
 
 	@media screen and (max-width: 980px) {
@@ -2977,6 +3024,7 @@ input, select, textarea {
 					top: -0.25em;
 					font-size: 1.25em;
 				}
+
 
 		/* Box */
 
