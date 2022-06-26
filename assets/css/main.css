@@ -188,7 +188,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin-left: 20%;
 		max-width: 100%;
 		width: 1400px;
 	}
@@ -237,6 +237,7 @@ input, select, textarea {
 
 			.container {
 				width: 100%;
+				margin: 0;
 			}
 
 		}
@@ -327,7 +328,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 30%;
 		}
 
 		.row > .off-6 {
@@ -570,7 +571,7 @@ input, select, textarea {
 				}
 
 				.row > .col-6-wide {
-					width: 50%;
+					width: 30%;
 				}
 
 				.row > .off-6-wide {
@@ -815,7 +816,7 @@ input, select, textarea {
 				}
 
 				.row > .col-6-normal {
-					width: 50%;
+					width: 30%;
 				}
 
 				.row > .off-6-normal {
@@ -1060,7 +1061,7 @@ input, select, textarea {
 				}
 
 				.row > .col-6-narrow {
-					width: 50%;
+					width: 30%;
 				}
 
 				.row > .off-6-narrow {
@@ -1305,7 +1306,7 @@ input, select, textarea {
 				}
 
 				.row > .col-6-narrower {
-					width: 50%;
+					width: 30%;
 				}
 
 				.row > .off-6-narrower {
@@ -2101,6 +2102,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.left img:hover {
+				opacity: 50%;
+				background-color: rgba(0,0,0,0.90);
+				transition: filter 0.5s linear;
+				filter: brightness(1) grayscale(1);
+			}
+
+
 		.image.fit {
 			display: block;
 		}
@@ -2527,18 +2536,51 @@ input, select, textarea {
 			clear: both;
 		}
 
-		.box.post .inner {
-			margin-left: calc(30% + 2em);
-		}
+		/* Position Gallery Text*/
 
-			.box.post .inner > :last-child {
-				margin-bottom: 0;
-			}
+				.box.post .inner {
+					visibility: hidden;
+					margin-left: calc(40% + 2em);
+					position: absolute;
+					left: -30%;
+		      right: 30%;
+					top: 20%;
+				}
 
-		.box.post .image {
-			width: 30%;
-			margin: 0;
-		}
+					.box.post .inner h3 {
+							margin-bottom: 0em;
+							font-size: 1em;
+					}
+
+					.box.post .inner > :last-child {
+						margin-bottom: 0;
+					}
+
+					.box.post:hover .inner {
+						visibility: visible;
+						margin-left: calc(40% + 2em);
+						position: absolute;
+						width: 80%;
+						left: -42%;
+						right: 30%;
+						top: 40%;
+						color: white;
+						text-align: center;
+						background: #3dbef3;
+						text-shadow: 2px;
+						border-left: 6px solid #BFE2FF;
+					}
+
+
+		/* Change size image gallery */
+
+				.box.post .image {
+					width: 100%;
+					margin: 0;
+					box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+					border: 1vh solid #BFE2FF;
+				}
+
 
 /* Header */
 
@@ -2746,7 +2788,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #fff;
+			background: black;
 		}
 
 		.wrapper.style2 {
@@ -3424,7 +3466,7 @@ margin-top: 3%;
 			}
 
 			.box.post .image {
-				width: 30%;
+				width: 100%;
 			}
 
 		/* Banner */
