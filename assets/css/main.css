@@ -2967,70 +2967,7 @@ input, select, textarea {
 
 	}
 
-	/*Gallery*/
-
-	.imgGallery li {
-		display: inline;
-	}
-
-.imgGallery ul {
-margin-left: 10%;
-margin-top: 3%;
-}
-
-	.imgGallery ul li img
-	{
-		width: 25%;
-		height: auto;
-		overflow: hidden;
-		box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
-		border: 1vh solid #BFE2FF;
-	}
-
-	.imgGallery ul li img:hover
-	{
-		opacity: 50%;
-		background-color: rgba(0,0,0,0.90);
-		transition: filter 0.5s linear;
-		filter: brightness(1) grayscale(1);
-	}
-
-
-
-	.imgGallery ul li .tooltiptext {
-		visibility: hidden;
-		position: absolute;
-		width: 15%;
-		color: white;
-		background: #3dbef3;
-		font-weight: bolder;
-		text-shadow: 2px;
-		margin-top: 6%;
-		margin-left: -18%;
-		text-align: center;
-		border-left: 6px solid #BFE2FF;
-
-}
-.imgGallery ul li:hover .tooltiptext {
-		visibility: visible;
-		}
-
-@media screen and (max-width: 600px) {
-
-			.imgGallery ul li .tooltiptext {
-				font-size: 1vh;
-				width: 30%;
-				margin-left: -25%;
-				letter-spacing: 0em;
-			}
-
-			.imgGallery ul li img
-			{
-				border: 0.5vh solid #BFE2FF;
-			}
-
-
-		}
+	
 
 
 /* Narrow */
