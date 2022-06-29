@@ -29,8 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
-	line-height: 1;
+body, p {
+	line-height: 1.2em;
 }
 
 ol, ul {
@@ -131,7 +131,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 1em 0 0 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2810,7 +2810,7 @@ input, select, textarea {
 			}
 
 		#footer .container {
-			margin-bottom: 4em;
+			margin-bottom: 1em;
 		}
 
 		#footer .icons {
@@ -3109,7 +3109,7 @@ margin-top: 3%;
 			}
 
 				#footer .container {
-					margin-bottom: 4em;
+					margin-bottom: 1em;
 				}
 
 				#footer form .actions {
