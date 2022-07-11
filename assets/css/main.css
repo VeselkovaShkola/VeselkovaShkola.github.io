@@ -25,6 +25,10 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+iframe {
+	width: 100%;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -292,7 +296,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #120779;
+		color: #1e08e7;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -2945,7 +2949,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 3rem 0;
 			text-align: center;
 		}
 
@@ -2960,7 +2964,7 @@ input, select, textarea {
 
 			header.major > .date {
 				font-size: 1rem;
-				margin: 0 0 4rem 0;
+				margin: 0 0 3rem 0;
 			}
 
 				header.major > .date:before, header.major > .date:after {
@@ -3652,6 +3656,7 @@ input, select, textarea {
 		#nav a {
 			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
+			text-shadow: 2px 2px 5px #0f0f0f;
 		}
 
 			#nav a:hover {
@@ -3713,7 +3718,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 1rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3781,7 +3786,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 6rem 6rem 4rem 6rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3801,7 +3806,7 @@ input, select, textarea {
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 4rem 4rem 4rem 4rem ;
 				}
 
 			}
@@ -3809,7 +3814,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 4rem 2rem 2rem 2rem ;
+					padding: 3rem 2rem 2rem 2rem ;
 				}
 
 					#main > .post header.major > .date {
