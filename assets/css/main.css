@@ -3734,6 +3734,7 @@ input, select, textarea {
 
 					#nav ul.links li.active a {
 						color: #1e252d;
+						text-shadow: none;
 					}
 
 						#nav ul.links li.active a:hover {
